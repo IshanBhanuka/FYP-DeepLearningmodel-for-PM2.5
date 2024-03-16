@@ -14,7 +14,23 @@ This project focuses on predicting air pollution levels, specifically Particulat
 ## File Structure
 - `data/`: Directory containing datasets and preprocessing scripts.
 - `models/`: Directory containing trained deep learning models and the results gained from each model.
-- The final Report of Part I of the project is [here.](https://github.com/IshanBhanuka/FYP-DeepLearningmodel-for-PM2.5/blob/main/G11_EE_405_Report.pdf)  
+- The final Report of Part I of the project is [here.](https://github.com/IshanBhanuka/FYP-DeepLearningmodel-for-PM2.5/blob/main/G11_EE_405_Report.pdf)
+
+## Models Used
+- **ARIMA (AutoRegressive Integrated Moving Average)**: A classical time series forecasting model.
+  - Code: [Link to ARIMA code](https://github.com/IshanBhanuka/FYP-DeepLearningmodel-for-PM2.5/blob/main/Model/ARIMA%202%2C1%2C1/Cluster%201/ARIMA%20model%202%2C1%2C1%20cluster%201.ipynb)
+
+- **ETS (Error, Trend, Seasonality)**: A statistical model for time series forecasting.
+  - Code: [Link to ETS code](https://github.com/IshanBhanuka/FYP-DeepLearningmodel-for-PM2.5/blob/main/Model/ETS/Cluster%201/ETS%20model%20prediction%20cl1.ipynb)
+
+- **LSTM (Long Short-Term Memory)**: A type of recurrent neural network (RNN) architecture suitable for time series data.
+  - Code: [Link to LSTM code](https://github.com/IshanBhanuka/FYP-DeepLearningmodel-for-PM2.5/blob/main/Model/LSTM/LSTM_cluster1_ver3.ipynb)
+    
+- **GRU (Gated Recurrent Unit)**: Another type of recurrent neural network architecture similar to LSTM but with fewer parameters.
+  - Code: [Link to GRU code](/models/gru.py)
+
+- **Random Forest**: An ensemble learning method for classification and regression tasks.
+  - Code: [Link to Random Forest code](https://github.com/IshanBhanuka/FYP-DeepLearningmodel-for-PM2.5/blob/main/Model/Random%20Forest/Cluster%201/randomforest%20cl1%20.ipynb)
 
 
 ## Conclusion and Future Work
