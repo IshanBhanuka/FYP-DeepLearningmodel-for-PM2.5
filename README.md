@@ -49,6 +49,6 @@ project-I on time throughout the process.
 
 ## Contact Information
 For questions or inquiries, please contact our team,
-- [Lahiru Herath](e18132@eng.pdn.ac.lk)
+- [Lahiru Herath](mailto:e18132@eng.pdn.ac.lk)
 - [Ishan Bhanuka](https://github.com/IshanBhanuka)
-- [Kaushan Nanayakkara](e18216@eng.pdn.ac.lk)
+- [Kaushan Nanayakkara](mailto:e18216@eng.pdn.ac.lk)
