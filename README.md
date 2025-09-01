@@ -19,7 +19,7 @@ The project was completed in two phases:
 ## File Structure
 - `data/`: Directory containing datasets and preprocessing scripts.
 - `models/`: Directory containing trained deep learning models and the results gained from each model.
-- The final Report of the project is [here.](https://github.com/IshanBhanuka/FYP-DeepLearningmodel-for-PM2.5/blob/main/G11_EE_405_Report.pdf)
+- The final Report of the project is [here.](https://github.com/IshanBhanuka/FYP-DeepLearningmodel-for-PM2.5/blob/main/G11_EE_406_Report.pdf)
 
 
 ## Models Used
