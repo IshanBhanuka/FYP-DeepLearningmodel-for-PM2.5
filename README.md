@@ -59,22 +59,24 @@ The project was completed in two phases:
   - [Link to Hybrid Model code](/Model/Hybrid%20model/hybrid-ver2.ipynb)  
 
 📌 **Key Finding:** The **Hybrid CNN-LSTM model** achieved the best performance, surpassing standalone models.  
-
+<br>
+ <p align="center">
+  <img src="/Photos/model1.drawio(5).png" alt="PM2.5 Prediction Model" width="800"/>
+</p>
+</br>
 
 ## Results
 
-- **Hybrid CNN-LSTM:**  
-  - **R² = 86.86%** → Most accurate and reliable.  
+- **Hybrid CNN-LSTM:** **R² = 86.86%** → Most accurate and reliable.  
 
-- **CNN only:**  
-  - **R² = 83.84%** → Strong performance, captured spatial patterns effectively.  
+- **CNN only:** **R² = 83.84%** → Strong performance, captured spatial patterns effectively.  
 
-- **LSTM only:**  
-  - **R² = 41.13%** → Less accurate, but useful for temporal insights.
+- **LSTM only:**  **R² = 41.13%** → Less accurate, but useful for temporal insights.
+<br>   
  <p align="center">
-  <img src="/Photos/comparison.png" alt="PM2.5 Prediction Results" width="600"/>
+  <img src="/Photos/comparison.png" alt="PM2.5 Prediction Results" width="800"/>
 </p>
-
+</br>
 These results confirm that integrating both spatial and temporal features leads to more robust PM2.5 predictions.
 
 ## Conclusion
