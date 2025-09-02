@@ -3,7 +3,8 @@
 ## Description
 This project focuses on predicting air pollution levels, specifically Particulate Matter 2.5 (PM2.5), in urban areas of Sri Lanka. Using spatial-temporal deep learning models, satellite imagery, and sensor data, we aim to develop a comprehensive framework for forecasting PM2.5 levels and identifying potential sources of pollution.
 
-Project Summary - 
+Project Summary - [Link](/Poster%20-%20G11_2.pdf)
+
 For More info - [Visit Our Website](https://sites.google.com/view/ee405project-e18324/home)
 
 The project was completed in two phases:  
@@ -69,7 +70,10 @@ The project was completed in two phases:
   - **R² = 83.84%** → Strong performance, captured spatial patterns effectively.  
 
 - **LSTM only:**  
-  - **R² = 41.13%** → Less accurate, but useful for temporal insights.  
+  - **R² = 41.13%** → Less accurate, but useful for temporal insights.
+ <p align="center">
+  <img src="/Photos/comparison.png" alt="PM2.5 Prediction Results" width="600"/>
+</p>
 
 These results confirm that integrating both spatial and temporal features leads to more robust PM2.5 predictions.
 
