@@ -28,13 +28,13 @@ The project was completed in two phases:
 - **ARIMA (AutoRegressive Integrated Moving Average)**
   - Code: [Link to ARIMA code](https://github.com/IshanBhanuka/FYP-DeepLearningmodel-for-PM2.5/blob/main/Model/ARIMA%202%2C1%2C1/Cluster%201/ARIMA%20model%202%2C1%2C1%20cluster%201.ipynb)
 - **ETS (Error, Trend, Seasonality)**
-  - Code: [Link to ETS code](https://github.com/IshanBhanuka/FYP-DeepLearningmodel-for-PM2.5/blob/main/Model/ETS/Cluster%201/ETS%20model%20prediction%20cl1.ipynb)  
+  - Code: [Link to ETS code](https://github.com/IshanBhanuka/FYP-DeepLearningmodel-for-PM2.5/tree/main/Model/ETS)  
 - **Random Forest**
-  - Code: [Link to Random Forest code](https://github.com/IshanBhanuka/FYP-DeepLearningmodel-for-PM2.5/blob/main/Model/Random%20Forest/Cluster%201/randomforest%20cl1%20.ipynb)
+  - Code: [Link to Random Forest code](https://github.com/IshanBhanuka/FYP-DeepLearningmodel-for-PM2.5/tree/main/Model/Random%20Forest)
 - **LSTM (Long Short-Term Memory)**
   - Code: [Link to LSTM code](https://github.com/IshanBhanuka/FYP-DeepLearningmodel-for-PM2.5/blob/main/Model/LSTM/LSTM_cluster1_ver3.ipynb) 
 - **GRU (Gated Recurrent Unit)**  
-  - Code: [Link to GRU code](/models/gru.py)
+  - Code: [Link to GRU code](/Model)
 
 📌 **Key Finding:** LSTM consistently outperformed other models in time-series prediction, making it the most reliable for PM2.5 forecasting.  
 
