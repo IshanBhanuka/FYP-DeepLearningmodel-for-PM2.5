@@ -3,9 +3,14 @@
 ## Description
 This project focuses on predicting air pollution levels, specifically Particulate Matter 2.5 (PM2.5), in urban areas of Sri Lanka. Using spatial-temporal deep learning models, satellite imagery, and sensor data, we aim to develop a comprehensive framework for forecasting PM2.5 levels and identifying potential sources of pollution.
 
+Project Summary - 
+For More info - [Visit Our Website](https://sites.google.com/view/ee405project-e18324/home)
+
 The project was completed in two phases:  
 - **Part I:** Focused on temporal prediction using statistical, machine learning, and deep learning approaches.  
-- **Part II:** Extended the work with a hybrid **CNN-LSTM model**, integrating temporal features from LSTM with spatial features extracted from satellite images via CNN, resulting in a significant boost in predictive performance.  
+- **Part II:** Extended the work with a hybrid **CNN-LSTM model**, integrating temporal features from LSTM with spatial features extracted from satellite images via CNN, resulting in a significant boost in predictive performance.
+
+ 
 
 ## Data Collection and Clustering
 - **Data Sources:**
@@ -26,15 +31,15 @@ The project was completed in two phases:
 
 ### Part I – Temporal Prediction
 - **ARIMA (AutoRegressive Integrated Moving Average)**
-  - Code: [Link to ARIMA code](https://github.com/IshanBhanuka/FYP-DeepLearningmodel-for-PM2.5/blob/main/Model/ARIMA%202%2C1%2C1/Cluster%201/ARIMA%20model%202%2C1%2C1%20cluster%201.ipynb)
+  - Code: [Link to ARIMA code](/Model/ARIMA%202%2C1%2C1/Cluster%201/ARIMA%20model%202%2C1%2C1%20cluster%201.ipynb)
 - **ETS (Error, Trend, Seasonality)**
-  - Code: [Link to ETS code](https://github.com/IshanBhanuka/FYP-DeepLearningmodel-for-PM2.5/tree/main/Model/ETS)  
+  - Code: [Link to ETS code](/Model/ETS)  
 - **Random Forest**
-  - Code: [Link to Random Forest code](https://github.com/IshanBhanuka/FYP-DeepLearningmodel-for-PM2.5/tree/main/Model/Random%20Forest)
+  - Code: [Link to Random Forest code](/Model/Random%20Forest)
 - **LSTM (Long Short-Term Memory)**
-  - Code: [Link to LSTM code](https://github.com/IshanBhanuka/FYP-DeepLearningmodel-for-PM2.5/blob/main/Model/LSTM/LSTM_cluster1_ver3.ipynb) 
+  - Code: [Link to LSTM code](/Model/LSTM/LSTM_cluster1_ver3.ipynb) 
 - **GRU (Gated Recurrent Unit)**  
-  - Code: [Link to GRU code](/Model)
+  - Code: [Link to GRU code](/Model/gru_model)
 
 📌 **Key Finding:** LSTM consistently outperformed other models in time-series prediction, making it the most reliable for PM2.5 forecasting.  
 
@@ -44,17 +49,16 @@ The project was completed in two phases:
   - Pre-trained **VGG16** used to extract deep features from RGB satellite images.  
   - Handcrafted indices (Green Index, Urban Index, Near-Road Index) were added.  
   - Extracted features passed through fully connected layers for predictions.
-  - [Link to CNN code](/models/gru.py)  
+  - [Link to CNN code](/Model/CNN%20Models)  
 
 - **Hybrid CNN-LSTM**  
   - LSTM captured the temporal dynamics of PM2.5 data.  
   - CNN extracted spatial patterns from satellite imagery.  
   - Predictions combined using **linear regression** to optimize weight allocation.
-  - [Link to Hybrid Model code](/models/gru.py)  
+  - [Link to Hybrid Model code](/Model/Hybrid%20model/hybrid-ver2.ipynb)  
 
 📌 **Key Finding:** The **Hybrid CNN-LSTM model** achieved the best performance, surpassing standalone models.  
 
----
 
 ## Results
 
